@@ -1,0 +1,76 @@
+
+body {
+    background-color: #000000;
+    padding-left: 7%;
+    padding-top: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .body {
+    margin-left: 15%;
+    padding-top: ;
+    padding-left: 30px;
+}
+ */
+
+.profile {
+    color: white;
+    font-size: 20px; 
+}
+
+.profile > span {
+    display: block;
+    position: absolute;
+    margin-top: -1.4%;
+    text-decoration: underline;
+}
+
+.about {
+    color: white;
+    font-size: 20px; 
+}
+
+.interest {
+    margin-top:2%;
+    color:white;
+    font-size: 20px;
+}
+
+.red {
+    color: #CE9374;
+}
+
+.footer {
+    padding-top: 8%;
+}
+
+.footer a {
+    margin-right: 1.8%;
+    text-decoration: none;
+    color: #cc6633;
+    color: #CE9374;
+}
+
+.smallscreen {
+    padding-top: 8%;
+}
+
+.smallscreen a {
+    margin-right: 1.8%;
+    text-decoration: none;
+}
+
+.smallscreen {
+    display: none;
+}
+
+/*********** Screen of small phones ********/
+@media only screen and (max-width: 768px) {
+    .smallscreen {
+        display: initial;
+    }
+
+    .footer {
+        display: none;
+    }
+}
